@@ -1,6 +1,6 @@
 resource "azurerm_resource_group1" "rg" {
   name     = var.resource_group_name
-  location = var.location
+  location = var.location.india
 }
 
 resource "azurerm_virtual_network" "vnet" {
